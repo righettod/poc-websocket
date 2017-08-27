@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>POC WEBSOCKET</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+    <!-- Action code -->
+    <script type="text/javascript" src="js/app.js"></script>
+  </head>
+  <body>
+    <div style="padding-left: 5px">
+      <div id="infoBoard" role="alert"></div>
+      <h3>Authentication</h3>
+      <p>Authenticate against the <strong>AuthenticationEndpoint</strong> WebSocket endpoint</p>
+      <p>Basic user: <code>Login: bob - Password: bob123</code></p>
+      <p>Admin user: <code>Login: alice - Password: alice123</code></p>
+      <div class="row">
+        <div class="col-md-4"><input id="userLogin" type="text" class="form-control" placeholder="Username"></div>
+        <div class="col-md-4"><input id="userPassword" type="password" class="form-control" placeholder="Password"></div>
+        <div class="col-md-4"><button id="authenticationAction" type="button" class="btn btn-success">Authenticate</button>&nbsp;&nbsp;<button id="tokenInvalidationAction" type="button" class="btn btn-danger">Access Token invalidation</button></div>
+      </div>
+
+      <hr class="half-rule"/>
+
+      <h3>Post a message</h3>
+      <p>Post a message against the <strong>MessageEndpoint</strong> WebSocket endpoint</p>
+      <div class="row">
+        <div class="col-md-8"><input id="newMessageContent" type="text" class="form-control" placeholder="New message content"></div>
+        <div class="col-md-4"><button id="postNewMessageAction" type="button" class="btn btn-success">Post new message</button></div>
+      </div>
+
+     <hr class="half-rule"/>
+
+      <h3>Messages board</h3>
+      <p>Messages send and received against the <strong>MessageEndpoint</strong> WebSocket endpoint</p>
+      <ul class="list-group" id="messagesBoard">
+        <!-- <li class="list-group-item">Dapibus ac facilisis in</li> -->
+      </ul>
+
+    </div>
+
+  </body>
+</html>

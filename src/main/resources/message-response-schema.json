@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "MessageResponse",
+  "type": "object",
+  "properties": {
+    "isSuccess": {
+      "type": "boolean"
+    },
+    "errorMessage": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9!\\s:,]{0,300}$"
+    },
+    "messages": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 1000,
+      "items": {
+        "type" : "string",
+        "pattern": "^[a-zA-Z0-9\\s!,;:\\(\\)_]{1,200}$"
+      }
+    }
+  },
+  "required": [
+    "isSuccess",
+    "errorMessage",
+    "messages"
+  ]
+}

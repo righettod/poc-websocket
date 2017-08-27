@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "AuthenticationResponse",
+  "type": "object",
+  "properties": {
+    "isSuccess;": {
+      "type": "boolean"
+    },
+    "token": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9+/=\\._-]{0,500}$"
+    },
+    "message": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9!\\s]{0,100}$"
+    }
+  },
+  "required": [
+    "isSuccess",
+    "token",
+    "message"
+  ]
+}

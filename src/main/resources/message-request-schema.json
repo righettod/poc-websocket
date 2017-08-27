@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "MessageRequest",
+  "type": "object",
+  "properties": {
+    "token": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9+/=\\._-]{100,300}$"
+    },
+    "content": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9\\s!,;:\\(\\)_]{1,200}$"
+    }
+  },
+  "required": [
+    "token",
+    "content"
+  ]
+}
