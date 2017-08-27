@@ -626,7 +626,7 @@ public class AccessTokenBlacklistUtils {
 }
 </pre>
 
-'''Message handling''' - Process a request from a user to add a message in the list. Show a authorization validation approeach example
+'''Message handling''' - Process a request from a user to add a message in the list. Show a authorization validation approach example
 
 <pre>
 import com.auth0.jwt.interfaces.Claim;

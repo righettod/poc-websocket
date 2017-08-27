@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08339805-b82f-4de9-9633-cd1ea7e25002" name="Default" comment="" />
+    <list default="true" id="08339805-b82f-4de9-9633-cd1ea7e25002" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/article.wiki" afterPath="$PROJECT_DIR$/article.wiki" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
