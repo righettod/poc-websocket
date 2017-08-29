@@ -77,10 +77,10 @@ The code below define the complete authentication messages flow handling:
 
 '''Authentication Web Socket endpoint''' - Provide a WS endpoint the enable authentication exchange
 <pre>
-import com.owasp.pocwebsocket.configurator.EndpointConfigurator;
-import com.owasp.pocwebsocket.decoder.AuthenticationRequestDecoder;
-import com.owasp.pocwebsocket.encoder.AuthenticationResponseEncoder;
-import com.owasp.pocwebsocket.handler.AuthenticationMessageHandler;
+import org.owasp.pocwebsocket.configurator.EndpointConfigurator;
+import org.owasp.pocwebsocket.decoder.AuthenticationRequestDecoder;
+import org.owasp.pocwebsocket.encoder.AuthenticationResponseEncoder;
+import org.owasp.pocwebsocket.handler.AuthenticationMessageHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -152,10 +152,10 @@ public class AuthenticationEndpoint {
 
 '''Authentication message handler''' - Handle all authentication requests
 <pre>
-import com.owasp.pocwebsocket.enumeration.AccessLevel;
-import com.owasp.pocwebsocket.util.AuthenticationUtils;
-import com.owasp.pocwebsocket.vo.AuthenticationRequest;
-import com.owasp.pocwebsocket.vo.AuthenticationResponse;
+import org.owasp.pocwebsocket.enumeration.AccessLevel;
+import org.owasp.pocwebsocket.util.AuthenticationUtils;
+import org.owasp.pocwebsocket.vo.AuthenticationRequest;
+import org.owasp.pocwebsocket.vo.AuthenticationResponse;
 import org.owasp.encoder.Encode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -356,7 +356,7 @@ import com.github.fge.jsonschema.core.report.ProcessingReport;
 import com.github.fge.jsonschema.main.JsonSchema;
 import com.github.fge.jsonschema.main.JsonSchemaFactory;
 import com.google.gson.Gson;
-import com.owasp.pocwebsocket.vo.AuthenticationRequest;
+import org.owasp.pocwebsocket.vo.AuthenticationRequest;
 
 import javax.websocket.DecodeException;
 import javax.websocket.Decoder;
@@ -459,7 +459,7 @@ import com.github.fge.jsonschema.core.report.ProcessingReport;
 import com.github.fge.jsonschema.main.JsonSchema;
 import com.github.fge.jsonschema.main.JsonSchemaFactory;
 import com.google.gson.Gson;
-import com.owasp.pocwebsocket.vo.AuthenticationResponse;
+import org.owasp.pocwebsocket.vo.AuthenticationResponse;
 
 import javax.websocket.EncodeException;
 import javax.websocket.Encoder;
@@ -631,12 +631,12 @@ public class AccessTokenBlacklistUtils {
 <pre>
 import com.auth0.jwt.interfaces.Claim;
 import com.auth0.jwt.interfaces.DecodedJWT;
-import com.owasp.pocwebsocket.enumeration.AccessLevel;
-import com.owasp.pocwebsocket.util.AccessTokenBlacklistUtils;
-import com.owasp.pocwebsocket.util.AuthenticationUtils;
-import com.owasp.pocwebsocket.util.MessageUtils;
-import com.owasp.pocwebsocket.vo.MessageRequest;
-import com.owasp.pocwebsocket.vo.MessageResponse;
+import org.owasp.pocwebsocket.enumeration.AccessLevel;
+import org.owasp.pocwebsocket.util.AccessTokenBlacklistUtils;
+import org.owasp.pocwebsocket.util.AuthenticationUtils;
+import org.owasp.pocwebsocket.util.MessageUtils;
+import org.owasp.pocwebsocket.vo.MessageRequest;
+import org.owasp.pocwebsocket.vo.MessageResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
