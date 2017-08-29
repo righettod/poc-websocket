@@ -738,7 +738,7 @@ public class MessageHandler implements javax.websocket.MessageHandler.Whole<Mess
 
 == Confidentiality and Integrity ==
 
-When the raw version of the protocol is used (protocol '''WS://''') then the transfered data are exposed to eavedropping.
+If the raw version of the protocol is used (protocol '''WS://''') then the transfered data are exposed to eavesdropping and potential on-the-fly alteration.
 
 Example of capture using Wireshark and searching for password exchanges in the stored PCAP file, not printable characters has been explicitly removed from the command result:
 <pre>
@@ -746,7 +746,7 @@ $ grep -aE '(password)' capture.pcap
 {"login":"bob","password":"bob123"}
 </pre>
 
-There is a way to check, at web socket endpoint level, if the channel is secure by calling the method ''isSecure()'' on the ''session'' object instance.
+There is a way to check, at WebSocket endpoint level, if the channel is secure by calling the method ''isSecure()'' on the ''session'' object instance.
 
 Example of implementation in the method of the endpoint in charge of setup the session and affect the message handler:
 <pre>
