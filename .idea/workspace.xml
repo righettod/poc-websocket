@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08339805-b82f-4de9-9633-cd1ea7e25002" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/article.wiki" afterPath="$PROJECT_DIR$/article.wiki" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,111 +17,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MessageEndpoint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/endpoint/MessageEndpoint.java">
+      <file leaf-file-name="AuthenticationEndpoint.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/endpoint/AuthenticationEndpoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="43" column="65" lean-forward="false" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
+            <state relative-caret-position="388">
+              <caret line="44" column="80" lean-forward="true" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EndpointConfigurator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/configurator/EndpointConfigurator.java">
+      <file leaf-file-name="Session.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.1/javax.websocket-api-1.1-sources.jar!/javax/websocket/Session.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="34" column="57" lean-forward="false" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+            <state relative-caret-position="206">
+              <caret line="282" column="21" lean-forward="true" selection-start-line="282" selection-start-column="21" selection-end-line="282" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="561">
-                <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthenticationUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/util/AuthenticationUtils.java">
+      <file leaf-file-name="CloseReason.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.1/javax.websocket-api-1.1-sources.jar!/javax/websocket/CloseReason.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="44" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="-561">
+              <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="authentication-response-schema.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/authentication-response-schema.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthenticationRequestDecoder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/decoder/AuthenticationRequestDecoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="33" column="79" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthenticationResponseEncoder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/encoder/AuthenticationResponseEncoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="80" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/handler/MessageHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="100" column="38" lean-forward="true" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="authentication-request-schema.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/authentication-request-schema.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccessTokenBlacklistUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/util/AccessTokenBlacklistUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="73" column="62" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -160,13 +83,11 @@
         <option value="$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/decoder/AuthenticationRequestDecoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/encoder/AuthenticationResponseEncoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/vo/MessageRequest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/util/MessageUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/util/AuthenticationUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/util/AccessTokenBlackistUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/enumeration/AccessLevel.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/endpoint/AuthenticationEndpoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/endpoint/MessageEndpoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/handler/AuthenticationMessageHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/util/AccessTokenBlacklistUtils.java" />
@@ -179,6 +100,9 @@
         <option value="$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/encoder/MessageResponseEncoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/handler/MessageHandler.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/app.js" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/endpoint/AuthenticationEndpoint.java" />
       </list>
     </option>
   </component>
@@ -216,9 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,10 +259,21 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="poc-websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poc-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -472,7 +404,7 @@
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20176406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20396914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -494,21 +426,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/endpoint/AuthenticationEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/configurator/EndpointConfigurator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/vo/AuthenticationResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -530,9 +447,9 @@
         <state relative-caret-position="51">
           <caret line="3" column="85" lean-forward="false" selection-start-line="3" selection-start-column="85" selection-end-line="3" selection-end-column="85" />
           <folding>
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="false" />
+            <element signature="e#549#550#0" expanded="false" />
+            <element signature="e#579#580#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -549,11 +466,8 @@
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#781#782#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -587,25 +501,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/article.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/article.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/jwt-secret.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="40" lean-forward="true" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.1/javax.websocket-api-1.1-sources.jar!/javax/websocket/Session.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="250" column="24" lean-forward="false" selection-start-line="250" selection-start-column="4" selection-end-line="250" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -672,18 +572,10 @@
         <state relative-caret-position="340">
           <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="false" />
+            <element signature="e#549#550#0" expanded="false" />
+            <element signature="e#579#580#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="21" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,7 +621,7 @@
         <state relative-caret-position="119">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -746,7 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -754,7 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,7 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="14" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,8 +668,8 @@
         <state relative-caret-position="245">
           <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
           <folding>
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#781#782#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -801,14 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/endpoint/AuthenticationEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="39" column="51" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/handler/AuthenticationMessageHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
@@ -819,7 +700,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/util/AuthenticationUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
+        <state relative-caret-position="595">
           <caret line="44" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
@@ -851,19 +732,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/encoder/AuthenticationResponseEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/util/AccessTokenBlacklistUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
+        <state relative-caret-position="1139">
           <caret line="73" column="62" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -871,19 +742,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/handler/MessageHandler.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="100" column="38" lean-forward="true" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
+        <state relative-caret-position="494">
+          <caret line="70" column="56" lean-forward="false" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/endpoint/MessageEndpoint.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="43" column="65" lean-forward="false" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
+        <state relative-caret-position="34">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="561">
+            <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -895,14 +777,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="561">
-            <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/endpoint/MessageEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="43" column="65" lean-forward="false" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/encoder/AuthenticationResponseEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/handler/MessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="100" column="38" lean-forward="false" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.1/javax.websocket-api-1.1-sources.jar!/javax/websocket/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="282" column="21" lean-forward="true" selection-start-line="282" selection-start-column="21" selection-end-line="282" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.1/javax.websocket-api-1.1-sources.jar!/javax/websocket/CloseReason.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/righettod/pocwebsocket/endpoint/AuthenticationEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="44" column="80" lean-forward="true" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="80" />
+          <folding />
         </state>
       </provider>
     </entry>

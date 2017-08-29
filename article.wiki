@@ -13,7 +13,7 @@ The section below will propose some implementation hints on every area and will 
 
 == Access filtering ==
 
-During a websocket channel initiation, the browser send the "Origin" HTTP request header that contain th source domain initiation the request to handshake. Event if this header can be spoofed in a forged HTTP request (not browser based), it cannot be overrided or forced in a browser context. It then represent a good candidate to apply filtering according to an expected value.
+During a websocket channel initiation, the browser send the '''Origin''' HTTP request header that contain th source domain initiation the request to handshake. Event if this header can be spoofed in a forged HTTP request (not browser based), it cannot be overrided or forced in a browser context. It then represent a good candidate to apply filtering according to an expected value.
 
 An example of attack using this vector and named ''Cross-Site WebSocket Hijacking (CSWSH)'' is described [https://www.christian-schneider.net/CrossSiteWebSocketHijacking.html here].
 
@@ -738,6 +738,40 @@ public class MessageHandler implements javax.websocket.MessageHandler.Whole<Mess
 
 == Confidentiality and Integrity ==
 
-TODO
+When the raw version of the protocol is used (protocol '''WS://''') then the transfered data are exposed to eavedropping.
 
-There a way to check if the channel is secure by checking on the endpoint session.isSecure
+Example of capture using Wireshark and searching for password exchanges in the stored PCAP file, not printable characters has been explicitly removed from the command result:
+<pre>
+$ grep -aE '(password)' capture.pcap
+{"login":"bob","password":"bob123"}
+</pre>
+
+There is a way to check, at web socket endpoint level, if the channel is secure by calling the method ''isSecure()'' on the ''session'' object instance.
+
+Example of implementation in the method of the endpoint in charge of setup the session and affect the message handler:
+<pre>
+/**
+ * Handle the beginning of an exchange
+ *
+ * @param session Exchange session information
+ */
+@OnOpen
+public void start(Session session) {
+    ...
+    //Affect a new message handler instance in order to process the exchange only if the channel is secured
+    if(session.isSecure()) {
+        session.addMessageHandler(new AuthenticationMessageHandler(session.getBasicRemote()));
+    }else{
+        LOG.info("[AuthenticationEndpoint] Session {} do not use a secure channel so no message handler was affected for processing and session was explicitly closed !", session.getId());
+        try{
+            session.close(new CloseReason(CloseReason.CloseCodes.CANNOT_ACCEPT,"Insecure channel used !"));
+        }catch(IOException e){
+            LOG.error("[AuthenticationEndpoint] Session {} cannot be explicitly closed !", session.getId(), e);
+        }
+
+    }
+    LOG.info("[AuthenticationEndpoint] Session {} message handler affected for processing", session.getId());
+}
+</pre>
+
+Expose WebSocket endpoints only on '''[https://kaazing.com/html5-websocket-security-is-strong/ WSS]://''' protocol (WebSockets over SSL/TLS) in order to ensure ''Confidentiality'' and ''Integrity'' of the traffic like using HTTP over SSL/TLS to secure HTTP exchanges.

@@ -1,12 +1,12 @@
 # Objective
 
-This project is a prototype in order to materialize prevention concepts described in the following OWASP cheatsheet, in section WebSocket section:
+This project is a prototype in order to materialize prevention concepts described in the following OWASP cheatsheet, in *WebSocket* section:
 
 https://www.owasp.org/index.php/HTML5_Security_Cheat_Sheet#WebSockets
 
 All classes are fully documented.
 
-The project is developed with Maven under IntelliJ IDEA.
+The project is developed with Maven under IntelliJ IDEA Community Edition.
 
 A web page propose a UI to test the differents protection and use cases.
 
