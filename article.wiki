@@ -11,6 +11,8 @@ In addition to the elements mentioned above, this is the list of area for which 
 
 The section below will propose some implementation hints on every area and will be along with an application example showing all the points described.
 
+The complete source code of the example application is available [https://github.com/righettod/poc-websocket here].
+
 == Access filtering ==
 
 During a websocket channel initiation, the browser send the '''Origin''' HTTP request header that contain th source domain initiation the request to handshake. Event if this header can be spoofed in a forged HTTP request (not browser based), it cannot be overrided or forced in a browser context. It then represent a good candidate to apply filtering according to an expected value.
